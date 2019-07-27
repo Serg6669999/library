@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Post
+from .models import user, book
 from .forms import NameForm, BookForm
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic.edit import FormView
@@ -8,8 +8,8 @@ from django.shortcuts import render, redirect
 
 
 def base_list(request):
-    posts = Post.objects.all()
-    print(Post.name_user)
+    posts = user.objects.all()
+    print(user.objects.all())
     # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -33,8 +33,8 @@ def base_list(request):
 
 
 def book_list(request, pk):
-    post = get_object_or_404(Post, pk=pk)
-    print(post)
+    book = get_object_or_404(book, pk=pk)
+    print(book)
     if request.method == "POST":
         form = BookForm(request.POST)
         if form.is_valid():
@@ -43,7 +43,7 @@ def book_list(request, pk):
             return redirect('book_list', pk=pk)
     else:
         form = BookForm()
-    return render(request, 'bbase/book_list.html',  {'post': post, 'form': form})
+    return render(request, 'bbase/book_list.html',  {'book': book, 'form': form})
 
 def book_edit_list(request,pk):
 

@@ -1,20 +1,20 @@
 from django.contrib.auth.forms import UserCreationForm
 from django.views.generic.edit import FormView
 from django import forms
-from .models import Post
+from .models import user
 
 
 class NameForm(forms.ModelForm):
 
     class Meta:
-        model = Post
+        model = user
         fields = ('name_user',)
     #your_name = forms.CharField(label='Добавить пользователя', max_length=100)
 
 class BookForm(forms.ModelForm):
 
    class Meta:
-       model = Post
+       model = user
        fields = ('name_book',)
 
     #book_name = forms.CharField(label='Добавить книгу', max_length=100)
