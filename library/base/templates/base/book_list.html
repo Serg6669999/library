@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Database_Users</title>
+    </head>
+    <body>
+        <div>
+             <h1><a href="/">{{user}}'s library </a></h1>
+        </div>
+        <div>
+            {% for book in user.books.all %}
+                <h1><a href="{% url 'book_edit_list' pk=book.pk %}">{{ book }}</a></h1>
+            {% endfor %}
+
+        </div>Add book
+        <div>
+            <form action="" method="post">
+                   {% csrf_token %}
+                   {{ form.as_p }}
+                  <input type="submit" value="Add book" />
+            </form>
+        </div>
+    </body>
+</html>
