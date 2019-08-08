@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6d4871-aea0-4a3f-b048-142ddb67f899" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/.gitignore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/migrations/0002_library.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/migrations/0003_auto_20190727_1304.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/templates/bbase/base_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/templates/base/base_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/templates/bbase/book_edit_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/templates/base/book_edit_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/templates/bbase/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/templates/base/book_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/bbase/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/library/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/library/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
