@@ -1,6 +1,6 @@
 from django.db import models
 
-class User(models.Model):
+class User (models.Model):
 
     name_user = models.CharField(max_length=50)
 

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6d4871-aea0-4a3f-b048-142ddb67f899" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/library/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/templates/base/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/test/test_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/test/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/base/test/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/base/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/base/test/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/base/test/test_models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

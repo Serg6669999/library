@@ -11,12 +11,12 @@ class UserModelTest(TestCase):
     def test_name_user_label(self):
         user = User.objects.get(id=1)
         field_label = user._meta.get_field('name_user').verbose_name
-        self.assertEquals(field_label, 'name_user')
+        self.assertEquals(field_label, 'name user')
 
 
 
     def test_object_name_user(self):
         user = User.objects.get(id=1)
-        expected_object_name = '%s, %s' % (user.name_user)
-        self.assertEquals(expected_object_name, str(author))
+        expected_object_name = user.name_user
+        self.assertEquals(expected_object_name, str(user))
 
